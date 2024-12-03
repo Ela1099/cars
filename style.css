@@ -1446,7 +1446,7 @@ text-align: center;}
     display: none;
 }
 .title__perevoz-name::after{
-   display: block;
+   display: none;
    top:40px;
    left: 0;
    right: 0;

@@ -75,7 +75,7 @@ navBtn.onclick = () => {
         navBtnImg.src ="images/free-icon-close-151882.png";
 }
     else {
-        navBtnImg.src ="images/icons8-меню.svg";
+        navBtnImg.src ="images/menu.png";
 }
 }
 
