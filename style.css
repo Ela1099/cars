@@ -1446,7 +1446,11 @@ text-align: center;}
     display: none;
 }
 .title__perevoz-name::after{
-   display: none;
+   display: block;
+   top:40px;
+   left: 0;
+   right: 0;
+   width: 388px;
 }
 
 .title__perevoz-name{
