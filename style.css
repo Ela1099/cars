@@ -21,7 +21,7 @@ margin: 0;
 }
 @font-face {
     font-family:'jura-bold';
-    src: url("fonts/jura-bold.ttf");
+    src: url("fonts/Jura-Bold.ttf");
 
 }
 @font-face {
@@ -36,7 +36,7 @@ margin: 0;
     
 }
 
-:root{
+:root {
     --regular-text:"jura";
     --bold-text:"jura-bold";
 }
@@ -161,7 +161,7 @@ color: #da9e1c;
 cursor: pointer;}
 
 .item-link{
-font-family:var(--regular-text),sans-serif ;;
+font-family:var(--regular-text),sans-serif ;
 font-size: 18px;
 
 
@@ -245,7 +245,7 @@ color:#ffffff;
 
     font-size: 40px;
     text-align: center;
-font-family: var(--regular-text),sans-serif ; ;
+font-family: var(--regular-text),sans-serif  ;
      
 }
 .title__perevoz-name:after{
@@ -287,7 +287,7 @@ z-index: 90;
 .title__perevoz-service-block{
     font-size: 20px;
     text-align: center;
-font-family: var(--regular-text),sans-serif ; ;
+font-family: var(--regular-text),sans-serif  ;
 padding: 25px;
 color:#ffffff;
 
@@ -298,7 +298,8 @@ border-radius: 10px;
 .title_h1{
     margin: 0;
 font-size: 90px;
-font-family: var(--bold-text),sans-serif;
+font-family:  var(--bold-text),sans-serif;
+
 text-align: center;
 color:#ffffff;
 margin-bottom: 40px;}
@@ -307,7 +308,7 @@ margin-bottom: 40px;}
     text-align: center;
 font-size: 50px;
 line-height: 28px;
-font-family:"jura",sans-serif ;
+font-family:var(--regular-text),sans-serif  ;
 
 color: #ffffff;}
 .title p{
@@ -536,9 +537,10 @@ flex-wrap:wrap ;
 
 
 .box__item-photo-car{
-    
+    display: block;
      max-width: 100%;
-   
+   height: 100%;
+
     object-fit: cover;
     object-position: center;
     border-radius: 20px;
