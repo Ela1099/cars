@@ -1447,13 +1447,13 @@ text-align: center;}
 .title__perevoz-name::before{
     display: none;
 }
-.title__perevoz-name::after{
+/* .title__perevoz-name::after{
  
    top:40px;
    left: 25px;
    right: 0;
    width: 365px;
-}
+} */
 
 .title__perevoz-name{
     margin-bottom: 0;
