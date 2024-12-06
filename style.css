@@ -173,7 +173,7 @@ cursor: pointer;
 
 .header__title{
     position: relative;
-background-image: url('images/_MG_5182___new.jpg');
+background-image: url('images/MG_5182___new.jpg');
 background-size: cover;
 background-position: center;
 
@@ -1533,14 +1533,14 @@ text-align: center;}
 }
 .Info-title span{
     color: #d58933;
-    font-size: 30px;
+    font-size: 40px;
     
     }
     
  
 
  .content__text{
-    font-size: 15px;
+    font-size: 25px;
      padding: 0 40px;}
 
 .content__text.s{
