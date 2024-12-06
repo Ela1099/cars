@@ -1507,7 +1507,7 @@ text-align: center;}
 }
 .box__item{
     width: 100%;
-    margin-bottom: 10px;
+    margin: 10px 0;
 }
 
 .text-content{
@@ -1574,6 +1574,10 @@ text-align: center;}
     .info__card-box-text-info{
         font-size: 12px;
     }
+
+.info__card-box-title.s{
+    text-align: center;
+}
 
     .partner-team-box {
         width: 40%;
