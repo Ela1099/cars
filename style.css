@@ -1507,6 +1507,7 @@ text-align: center;}
 }
 .box__item{
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .text-content{
@@ -1563,9 +1564,7 @@ text-align: center;}
     .info__card-box-title{
         font-size: 60px;
     }
-.box__item{
-    margin:0 0;
-}
+
     .info__card-team-box{
         width: 35%;
     }
