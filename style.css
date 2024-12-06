@@ -391,7 +391,7 @@ padding-top: 166px;
 
 }
 .main__bk{
-background-image: url("images/фон3.png");
+background-image: url("images/фон3.jpg");
 background-size: cover;
 background-position: center;
 position: relative;
@@ -624,13 +624,13 @@ text-transform: uppercase;}
 
 @keyframes picture {
 0%{
-background-image: url('car_1.png');
+background-image: url('car_1.jpg');
 }
 
 35%{
-    background-image: url('car_2.png');
+    background-image: url('car_2.jpg');
     }
-68%{  background-image: url('car_3.png');
+68%{  background-image: url('car_3.jpg');
 }
 
 }
@@ -651,7 +651,7 @@ position: relative;
 }
 
 .info-company-bac{
-    background-image: url('images/aa.png');
+    background-image: url('images/aa.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
