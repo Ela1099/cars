@@ -1543,8 +1543,9 @@ text-align: center;}
 
  .content__text{
     font-size: 25px;
-    padding-left:40px;
-padding-right: 0px;}
+    padding-left:00px;
+padding-right: 0px;
+text-align: center;}
 
 .content__text.s{
     display: none;
