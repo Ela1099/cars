@@ -1552,7 +1552,8 @@ text-align: center;}
 }
 
      .info__card{
-gap:10px;
+     justify-content: center;
+     gap:5px;
     }  
     
     .info__card-box-text{
