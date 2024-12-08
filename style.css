@@ -1542,7 +1542,9 @@ text-align: center;}
     right: 0;
 }
 
-
+.title__popup{
+    gap:10px;
+}
 .title__popup::after{
    display: none;
 }
