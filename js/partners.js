@@ -81,6 +81,20 @@ navBtn.onclick = () => {
 
 
 
+const navig = document.querySelector('nav');
+const navLinks = document.querySelectorAll('.item-link');
+const navBtnImgs = document.querySelector('#nav-btn-img');
+
+navLinks.forEach(link => {
+  link.addEventListener('click', () => {
+      navig.classList.remove('open');
+      navBtnImgs.src ="images/menu.png";
+  });
+});
+
+
+
+
 const links=document.querySelectorAll(".nav__menu__item>a");
 for (let i = 0; i < links.length; i++) {
     links[i].onclick = function () {

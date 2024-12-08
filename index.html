@@ -82,18 +82,18 @@
                 <div class="container titles">
                     <div class="header__info">
                         <div class="header__logo">
-                            <img class="logo" src="images/лого_2.png" alt="логотип">
+                            <img class="logo" src="images/KATRON_LOGO_UTV_CRV_RGB.png" alt="логотип">
                         </div>
                         <!-- <div class="top__icon-min">
                             <a  class="top__number" href="tel:+78126776162">+7 812 677-61-62</a>
                         </div> -->
                         <nav class="nav" id="nav">
                             <ul class="nav__menu">
-                                <li class="nav__menu__item"><a class="item-link" data-link="services">Услуги</li></a>
-                                <li class="nav__menu__item"><a class="item-link" data-link="info">О компании</li></a>
+                                <li class="nav__menu__item"><a class="item-link" id="item" data-link="services">Услуги</li></a>
+                                <li class="nav__menu__item"><a class="item-link" id="item" data-link="info">О компании</li></a>
                                 <!-- <li class="nav__menu__item"><a class="item-link" data-link="vacansii">Вакансии</li></a>  -->
-                                <li class="nav__menu__item"><a class="item-link" data-link="contact">Контакты</li></a>
-                                <li class="nav__menu__item"><a class="item-link" data-link="feedbac">Отзывы</li></a>
+                                <li class="nav__menu__item"><a class="item-link" id="item" data-link="contact">Контакты</li></a>
+                                <li class="nav__menu__item"><a class="item-link"  id="item" data-link="feedbac">Отзывы</li></a>
                             </ul>
                             <button  id="nav-btn" class="burger-checkbox">
                                 <img id="nav-btn-img" class="icon" src="images/menu.png" >
@@ -269,22 +269,39 @@
             </div> 
         </div>
         <div class="feedbac" id="feedbac">
+        
             <h2 class="Info-title">Отзывы наших клиентов</h2>
+            <div class="slider-container">
+            <div class="feedbac-map"></div>
             
-            <div class="sliders">
-                <div class="feedbac-map"></div> 
-	  <div class="slider-container">
-	    <div class="slider">
-	      <img src="images/Арнаут-1.jpg" width="600" height="400" alt="благодарность Арнаут">
-	      <img src="images/let.jpg" width="600" height="400" >
-	      <img src="images/ТрансЛайн-1.jpg" width="600" height="400" alt="благодарность ТрансЛайн">
-          <img src="images/Фабрика Вкуса-1.jpg" width="600" height="400" alt="благодарность Фабрика вкуса">
-	    </div>
-	    <button class="prev-button" type="button" aria-label="Посмотреть предыдущий слайд">&lang;</button>
-	    <button class="next-button" type="button" aria-label="Посмотреть следующий слайд">&rang;</button>
-	  </div>
-      
+       <div class="slider middle">
+       <div class="slides">
+        <input type="radio" name="r" id="r1" checked>
+        <input type="radio" name="r" id="r2">
+        <input type="radio" name="r" id="r3">
+        <input type="radio" name="r" id="r4">
+        
+        <div class="slide s1">
+           <img src="images/Арнаут-1.jpg"  alt="Изображение" class="img">
+        </div>
+        <div class="slide">
+           <img src="images/let.jpg"  alt="Изображение" class="img">
+        </div>
+        <div class="slide">
+           <img src="images/ТрансЛайн-1.jpg" alt="Изображение" class="img">
+        </div>
+        <div class="slide">
+           <img src="images/Фабрика Вкуса-1.jpg"  alt="Изображение" class="img">
+        </div>
+     </div>
+     <div class="navigation">
+        <label for="r1" class="bar"></label>
+        <label for="r2" class="bar"></label>
+        <label for="r3" class="bar"></label>
+        <label for="r4" class="bar"></label>
+     </div>
     </div>
+            </div>
     
 </div>
 <div class="partners">
@@ -353,7 +370,7 @@
         <div class="contact-bc">
             <div class="container">
                 <div id="contact" class="contact">
-                    <div class="contact-logo"><img class="logo" src="images/лого.jpg" alt="логотип"></div>
+                    <div class="contact-logo"><img class="logo" src="images/KATRON_LOGO_futer.png" alt="логотип"></div>
                     
                     
                     <div class="contact-adress"><span>192236, Санкт-Петербург <br> Сойфийская ул. 6</span></div>
