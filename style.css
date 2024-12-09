@@ -245,7 +245,7 @@ color:#ffffff;
 
     font-size: 40px;
     text-align: center;
-font-family: var(--regular-text),sans-serif  ;
+font-family: var(--bold-text),sans-serif ;
      
 }
 .title__perevoz-name:after{
@@ -391,7 +391,7 @@ padding-top: 166px;
 
 }
 .main__bk{
-background-image: url("images/фон3.jpg");
+background-image: url("images/Vector\ 1.svg");
 background-size: cover;
 background-position: center;
 position: relative;
@@ -904,7 +904,10 @@ object-position: center;}
  
  .slider {
     width: 600px;
-    
+    border-radius: 10px;
+    box-shadow: 0 0 10px #a7a7a7 ;
+
+
     overflow: hidden;
     position: relative;
     
@@ -995,6 +998,8 @@ object-position: center;}
     display: flex;
     
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     
    
 }
@@ -1022,8 +1027,11 @@ object-position: center;}
 
 .partner-team-box-photo{
     max-width: 100%;
-    object-fit: cover;
-}
+    height: 100%;
+     object-fit: cover;
+    object-position: center;
+    display: block; }
+   
 
 
 .job--bc{
@@ -1544,6 +1552,7 @@ text-align: center;}
 
 .title__popup{
     gap:10px;
+    flex-direction: column;
 }
 .title__popup::after{
    display: none;
@@ -1551,7 +1560,7 @@ text-align: center;}
 
 
 .title_h2{
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .btn_title{
