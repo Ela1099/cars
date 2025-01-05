@@ -1652,7 +1652,7 @@ text-align: left;}
 
 
 
- @media (max-width:576px)  {
+ @media (max-width:576px) or (orientation: landscape {
 
 .title_h2 .a[href^="tel:"] {
 
