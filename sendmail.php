@@ -6,6 +6,7 @@ require 'src/Exception.php';
 
 require 'src/PHPMailer.php';
 require 'src/SMTP.php';
+require_once 'config.php';
 
 $mail= new PHPMailer(true);
 $mail->CharSet = 'UTF-8';
@@ -13,10 +14,21 @@ $mail->setLanguage('ru','language');
 $mail->isHTML(true);
 
 
+$mail->SMTPAuth = true;
+$mail->Host = getConfig('host');
+$mail->Port = getConfig('port');
+$mail->Username = getConfig('username');
+$mail->Password = getConfig('password');
+$mail->SMTPSecure = getConfig('secure');
 
-$mail->setFrom('9215965587@mail.ru', 'Заявка с сайта'); // Адрес самой почты и имя отправителя
-$mail->addAddress('9215965587@mail.ru');
+
+
+
+$mail->setFrom(getConfig('from_email'), getConfig('from_name'));
+$mail->addAddress('beschastnayalena@yandex.ru');
 $mail->Subject= 'Заявка с сайта';
+
+
 
 $body = '<h1>Заявочку оформить и перезвонить!</h1>';
 
