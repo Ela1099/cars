@@ -21,11 +21,16 @@ $mail->Username = getConfig('username');
 $mail->Password = getConfig('password');
 $mail->SMTPSecure = getConfig('secure');
 
+<<<<<<< HEAD
 
 
 
 $mail->setFrom(getConfig('from_email'), getConfig('from_name'));
 $mail->addAddress('beschastnayalena@yandex.ru');
+=======
+$mail->setFrom('',Заявка с сайта'); // Адрес самой почты и имя отправителя
+$mail->addAddress('');
+>>>>>>> 0a8ae9d47dd7a5ebf4558102e61db01963ed935d
 $mail->Subject= 'Заявка с сайта';
 
 
