@@ -95,7 +95,7 @@ navLinks.forEach(link => {
 
 
 
-const links=document.querySelectorAll(".nav__menu__item>a");
+const links=document.querySelectorAll(".nav__item>a");
 for (let i = 0; i < links.length; i++) {
     links[i].onclick = function () {
         document.getElementById(links[i].getAttribute("data-link")).scrollIntoView({behavior:"smooth"});
